@@ -1,0 +1,32 @@
+/*estos selectores se aplican a los elementos html que coincidan con css*/
+/*h1{
+    color: green;
+}*/
+
+h2:hover{
+    background-color: coral;
+    cursor: pointer;
+}
+
+h2{
+    color:pink;
+}
+
+/*selectores universales se aplican a universalmente a los elementos usando *{}
+*{color:aquamarine;}*/
+/* *{border: 1px solid orange;}*/
+
+/*selector por id: se asigna en el codigo un id unico al elemente el cual se usa en css de la siguiente manera #idasiganado{}*/
+#titulo-principal{
+    color:chartreuse;
+    text-align:center;
+    background-color: blue;
+}
+
+/*el uso dde clases se usa con elatributo class="nombre a asiganar", en css se trabaja asi: .nombre asigando{}*/
+
+.parrafo{
+    color:indigo
+}
+
+/*pseudo calses: funcionana para eventos especificos, especiales sobre una eqiqueta se realiza en css asi: */
